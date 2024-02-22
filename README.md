@@ -9,9 +9,9 @@ Este projeto consiste em uma única página com o propósito de praticar HTML e 
 
 # Melhorias futuras
 Segue uma lista inicial de melhorias que pretendo adicionar
-[ ] Acessibilidade
-[] Melhorar alguns pontos no código
-[] Animações
-[] Adicionar JavaScript
-[] Testes unitáros
-[] Tornar a lista opções populares dinâmica
+- [] Acessibilidade
+- [] Melhorar alguns pontos no código
+- [] Animações
+- [] Adicionar JavaScript
+- [] Testes unitáros
+- [] Tornar a lista opções populares dinâmica
