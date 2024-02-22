@@ -1,0 +1,12 @@
+@import url(./global/colors.css);
+@import url(./components/index.css);
+
+body, h1, img {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-image: url('../img/graphics/background-home.png');
+  background-size: cover;
+}
