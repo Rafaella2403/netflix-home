@@ -1,12 +1,20 @@
 @import url(./global/colors.css);
 @import url(./components/index.css);
 
-body, h1, img {
+body, h1, img, ul, li {
   margin: 0;
   padding: 0;
+  color: var(--white);
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .body {
   background-image: url('../img/graphics/background-home.png');
   background-size: cover;
+  margin: 70px 16px 70px 32px;
 }

@@ -1,0 +1,71 @@
+
+.main ul {
+  gap: 40px;
+}
+
+.main-genre li {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+.main-genre li:not(:first-child)::before {
+  content: "";
+  background-color: var(--white);
+  width: 3px;
+  height: 32px;
+  display: block;
+  position: absolute;
+  left: -20px;
+}
+
+.main h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 64px;
+  padding-bottom: 32px;
+}
+
+.main-details li {
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  position: relative;
+}
+
+.main-details li:not(:first-child)::before {
+  display: block;
+  position: absolute;
+  content: "";
+  width: 3px;
+  height: 20px;
+  bottom: 7.5px;
+  background-color: var(--white);
+  left: -20px;
+}
+
+.main-details li span {
+  font-size: 29px;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.main p {
+  font-family: 'Inter', sans-serif;
+  color: var(--gray);
+  font-weight: 400;
+  max-width: 860px;
+  font-size: 24px;
+  text-indent: 12px;
+  line-height: 141.5%;
+}
+
+.main img {
+  padding-bottom: 50px;
+}
+
+.main div {
+  display: flex;
+  gap: 40px;
+}
