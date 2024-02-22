@@ -11,6 +11,33 @@
   text-transform: uppercase;
 }
 
+.popular-list::after {
+  content: '16+';
+  display: block;
+  width: 100px;
+  background-color: var(--gray);
+  position: absolute;
+  right: 0;
+  top: 150px;
+  text-indent: 12px;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  text-align: justify;
+  box-shadow: 0 -15px 0 0 var(--gray), 0 15px 0 0 var(--gray);
+}
+
+.popular-list::before {
+  content: '';
+  display: block;
+  width: 25px;
+  height: 59.5px;
+  background-color: var(--red);
+  position: absolute;
+  right: 99px;
+  top: 135px;
+  text-align: justify;
+}
+
 .popular-list ul {
   gap: 30px;
   position: absolute;
