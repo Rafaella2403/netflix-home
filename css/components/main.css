@@ -5,60 +5,60 @@
 
 .main-genre li {
   font-size: 32px;
-  font-family: "Inter", sans-serif;
   font-weight: 500;
-  padding-bottom: 32px;
   position: relative;
+  padding-bottom: 32px;
+  font-family: "Inter", sans-serif;
 }
 
 .main-genre li:not(:first-child)::before {
-  content: "";
-  background-color: var(--white);
   width: 3px;
+  content: "";
+  left: -20px;
   height: 32px;
   display: block;
   position: absolute;
-  left: -20px;
+  background-color: var(--white);
 }
 
 .main h1 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 800;
   font-size: 64px;
+  font-weight: 800;
   padding-bottom: 32px;
+  font-family: 'Inter', sans-serif;
 }
 
 .main-details li {
-  font-family: 'Inter', sans-serif;
   font-size: 30px;
   position: relative;
+  font-family: 'Inter', sans-serif;
 }
 
 .main-details li:not(:first-child)::before {
-  display: block;
-  position: absolute;
-  content: "";
   width: 3px;
+  left: -20px;
+  content: "";
   height: 20px;
   bottom: 7.5px;
+  display: block;
+  position: absolute;
   background-color: var(--white);
-  left: -20px;
 }
 
 .main-details li span {
   font-size: 29px;
-  color: var(--gray);
   font-weight: 400;
+  color: var(--gray);
 }
 
 .main p {
-  font-family: 'Inter', sans-serif;
-  color: var(--gray);
-  font-weight: 400;
-  max-width: 860px;
   font-size: 24px;
+  max-width: 860px;
+  font-weight: 400;
   text-indent: 12px;
+  color: var(--gray);
   line-height: 141.5%;
+  font-family: 'Inter', sans-serif;
 }
 
 .main img {
@@ -66,7 +66,7 @@
 }
 
 .main div {
-  display: flex;
   gap: 40px;
+  display: flex;
   margin-bottom: 64px;
 }

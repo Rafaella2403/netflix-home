@@ -3,45 +3,45 @@
 }
 
 .popular-list h1 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 800;
   font-size: 22px;
+  font-weight: 800;
   line-height: 144.5%;
   padding-bottom: 16px;
   text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
 }
 
 .popular-list::after {
-  content: '16+';
-  display: block;
-  width: 100px;
-  background-color: var(--gray);
-  position: absolute;
   right: 0;
   top: 150px;
-  text-indent: 12px;
-  font-family: 'Inter', sans-serif;
+  width: 100px;
+  content: '16+';
+  display: block;
   font-size: 24px;
+  text-indent: 12px;
+  position: absolute;
   text-align: justify;
+  background-color: var(--gray);
+  font-family: 'Inter', sans-serif;
   box-shadow: 0 -15px 0 0 var(--gray), 0 15px 0 0 var(--gray);
 }
 
 .popular-list::before {
+  top: 135px;
   content: '';
-  display: block;
+  right: 99px;
   width: 25px;
   height: 59.5px;
-  background-color: var(--red);
+  display: block;
   position: absolute;
-  right: 99px;
-  top: 135px;
   text-align: justify;
+  background-color: var(--red);
 }
 
 .popular-list ul {
   gap: 30px;
-  position: absolute;
   left: -130px;
+  position: absolute;
 }
 
 .popular-list li img{

@@ -1,17 +1,17 @@
 .button {
+  display: flex;
+  font-size: 22px;
+  font-weight: 400;
   padding: 16px 70px;
-  text-transform: uppercase;
+  position: relative;
   color: var(--white);
   border-radius: 10px;
-  border: solid 2px var(--red);
-  background: var(--red);
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
   line-height: 141.5%;
-  font-size: 22px;
-  position: relative;
-  display: flex;
-  align-items: center; /* Alinha verticalmente o texto e o ícone */
+  align-items: center;
+  background: var(--red);
+  text-transform: uppercase;
+  border: solid 2px var(--red);
+  font-family: 'Inter', sans-serif;
 }
 
 
@@ -30,10 +30,10 @@
 
 
 .primary::after {
-  content: url(../../img/icons/play.svg);
-  display: block;
   width: 28px;
   height: 28px;
+  display: block;
   margin-left: 8px;
   align-self: center; 
+  content: url(../../img/icons/play.svg);
 }

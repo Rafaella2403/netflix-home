@@ -1,8 +1,8 @@
 .header {
   display: flex;
+  margin-bottom: 100px;
   grid-template-columns: 1fr 1fr;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 
 .header img {
@@ -10,11 +10,11 @@
 }
 
 .header div {
+  gap: 40px;
   display: flex;
   max-width: 100%;
-  justify-content: end;
   align-items: center;
-  gap: 40px;
+  justify-content: end;
 }
 
 .header h1 {
@@ -25,11 +25,11 @@
 }
 
 .header h1::before {
-  content: "";
-  background-color: var(--white);
-  height: 28px;
   width: 3px;
+  content: "";
+  left: -20px;
+  height: 28px;
   display: block;
   position: absolute;
-  left: -20px;
+  background-color: var(--white);
 }

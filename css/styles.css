@@ -8,14 +8,14 @@ body, h1, img, ul, li {
 }
 
 ul {
-  list-style: none;
   display: flex;
   flex-wrap: wrap;
+  list-style: none;
 }
 
 .body {
-  background-image: url('../img/graphics/background-home.png');
+  height: 1100px;
   background-size: cover;
   margin: 100px 16px 70px 32px;
-  height: 1100px;
+  background-image: url('../img/graphics/background-home.png');
 }
