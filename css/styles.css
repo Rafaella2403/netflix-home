@@ -16,5 +16,6 @@ ul {
 .body {
   background-image: url('../img/graphics/background-home.png');
   background-size: cover;
-  margin: 70px 16px 70px 32px;
+  margin: 100px 16px 70px 32px;
+  height: 1100px;
 }

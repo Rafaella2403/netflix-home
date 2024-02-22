@@ -1,0 +1,23 @@
+.popular-list {
+  position: relative;
+}
+
+.popular-list h1 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  line-height: 144.5%;
+  padding-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.popular-list ul {
+  gap: 30px;
+  position: absolute;
+  left: -130px;
+}
+
+.popular-list li img{
+  max-width: 150px;
+  max-height: 210px;
+}
